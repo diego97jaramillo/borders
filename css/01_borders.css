@@ -3,6 +3,7 @@
     color: white;
     border: 5px solid green;
     border-width: 25px 30px;
+    border-radius: 25px;
 };
 
 p.dotted {
@@ -48,3 +49,39 @@ p.hidden {
 p.mix {
     border-style: dotted dashed solid double;
 }
+
+.imagenes {
+    width: 350px;
+    height: 250px;
+}
+
+#img1 {
+    border: 15px solid red;
+    border-width: 30px 20px;
+}
+
+#img2 {
+    border-color: blue;
+    border-width: 5px 15px 25px 40px;
+    border-style: solid dotted dashed ridge;
+}
+
+#img3 {
+    border: 10px groove yellow;
+    border-width: 10px 25px 30px;
+}
+
+#img4 {
+    border: 10px dotted green;
+    border-width: 15px 40px;
+}
+
+#img5 {
+    border: 7px dashed gray;
+    border-width: 35px 20px 15px 5px;
+}
+
+figure {
+    padding: 4px;
+}
+
