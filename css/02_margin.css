@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+section {
+    border: 10px solid black;
+    width: 100vw;
+    padding: 15px 0px;
+}
+
+section img {
+    border: 10px solid blue;
+    width: 150px;
+    height: 100px;
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
